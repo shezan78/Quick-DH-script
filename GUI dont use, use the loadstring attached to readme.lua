@@ -9,7 +9,7 @@ $$ |  $$ |$$ |  $$ |$$ |
  \______/  \______/ \__|                 
 ]]
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/Kavo-UI-Lib-Remake/main/Kavo%20UI%20Library%20main%20source.lua"))()
-local Window = Library.CreateLib("TITLE", "DarkTheme")
+local Window = Library.CreateLib("TestDaHoodGUI by shezan, ur now my son until 1/1/3030", "DarkTheme")
 local Tab = Window:NewTab("Da Hood")
 local Section = Tab:NewSection("Scripts")
 
