@@ -17,6 +17,13 @@ Tab:AddButton({
   	end    
 })
 
+Tab:AddButton({
+	Name = "Smooth Lock",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/Quick-DH-script/main/Smooth%20lock%2C%20dont%20use%2C%20use%20the%20GUI%20attached%20to%20the%20loadstring%20in%20readme.lua", true))()
+  	end    
+})
+
 local Tab = Window:MakeTab({
 	Name = "Avatar Stuff",
 	Icon = "rbxassetid://4483345998",
