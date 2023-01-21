@@ -47,3 +47,13 @@ OrionLib:MakeNotification({
 	Image = "rbxassetid://4483345998",
 	Time = 30
 })
+
+local Tab = Window:MakeTab({
+	Name = "Kavo UI",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Script"
+})
