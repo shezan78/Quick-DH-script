@@ -14,7 +14,7 @@ local Tab = Window:NewTab("Da Hood")
 local Section = Tab:NewSection("Scripts")
 
 Section:NewButton("Silentaim", "Working", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/ALotOfRobloxScripts/main/Roblox%20Scripts/STREAMABLE_1.lua", true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/Quick-DH-script/main/Silentaim%20Dont%20use.lua", true))()
 end)
 
 Section:NewButton("Smoothlock", "Working", function()
