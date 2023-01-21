@@ -23,3 +23,7 @@ end)
 
 local Tab = Window:NewTab("Avatar Changer")
 local Section = Tab:NewSection("Working")
+
+Section:NewButton("Avatar Changer", "Working", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/Quick-DH-script/main/HATGUI.%20dont%20use%2C%20use%20the%20gui%20attached%20to%20the%20loadstring%20in%20readme.lua", true))()
+end)
