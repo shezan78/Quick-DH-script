@@ -57,3 +57,30 @@ local Tab = Window:MakeTab({
 local Section = Tab:AddSection({
 	Name = "Script"
 })
+
+Tab:AddButton({
+	Name = "Kavo UI Script - Same thing But Kavo UI",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/Quick-DH-script/main/GUI%20dont%20use%2C%20use%20the%20loadstring%20attached%20to%20readme.lua"))()
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Destroy Interface",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Deletes the script UI ONLY"
+})
+
+Tab:AddButton({
+	Name = "Destroy UI Interface?",
+	Callback = function()
+      		OrionLib:Destroy()
+  	end    
+})
+
+
+OrionLib:Init()
