@@ -34,6 +34,13 @@ local Section = Tab:AddSection({
 	Name = "Scripts"
 })
 
+Tab:AddButton({
+	Name = "Avatar Changer",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/Quick-DH-script/main/HATGUI.%20dont%20use%2C%20use%20the%20gui%20attached%20to%20the%20loadstring%20in%20readme.lua", true))()
+  	end    
+})
+
 OrionLib:MakeNotification({
 	Name = "Son spawned in!",
 	Content = "365 days in a year and u choose to spend some of that time locking",
