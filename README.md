@@ -3,5 +3,5 @@ lolol i made this script within at least 30 minutes id say, tested too it has a 
 
 # Loadstring 
 ```lua
-loadstring(game:HttpGet("https://github.com/shezan78/Kavo-UI-Lib-Remake/blob/main/Kavo%20UI%20Library%20main%20source.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/Quick-DH-script/main/GUI%20dont%20use%2C%20use%20the%20loadstring%20attached%20to%20readme.lua"))()
 ```
