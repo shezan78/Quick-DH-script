@@ -11,9 +11,9 @@ local Section = Tab:AddSection({
 })
 
 Tab:AddButton({
-	Name = "Button!",
+	Name = "Silent Aim",
 	Callback = function()
-      		print("button pressed")
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/Quick-DH-script/main/Silentaim%20Dont%20use.lua", true))()
   	end    
 })
 
