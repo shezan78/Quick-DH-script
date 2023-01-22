@@ -21,6 +21,10 @@ Section:NewButton("Smoothlock", "Working", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/Quick-DH-script/main/Smooth%20lock%2C%20dont%20use%2C%20use%20the%20GUI%20attached%20to%20the%20loadstring%20in%20readme.lua", true))()
 end)
 
+Section:NewButton("YunV3", "Working", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/ALotOfRobloxScripts/bf63562f426a7daee4d266642835beb78afa9f89/Roblox%20Scripts/Yunv3.lua", true))()
+end)
+
 local Tab = Window:NewTab("Avatar Changer")
 local Section = Tab:NewSection("Working")
 
