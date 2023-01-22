@@ -32,12 +32,11 @@ Section:NewButton("Avatar Changer", "Working", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/Quick-DH-script/main/HATGUI.%20dont%20use%2C%20use%20the%20gui%20attached%20to%20the%20loadstring%20in%20readme.lua", true))()
 end)
 
+local Tab = Window:NewTab("Antilock")
+local Section = Tab:NewSection("Working")
+
 Section:NewButton("Antilock", "Working", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/Quick-DH-script/main/Silentaim%20Dont%20use.lua", true))()
-end)
-
-Section:NewButton("Antilock -", "Working", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/Quick-DH-script/main/AntiLock.lua"))()
 end)
 
 local Tab = Window:NewTab("Orion UI")
