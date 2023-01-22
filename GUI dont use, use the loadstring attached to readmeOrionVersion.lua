@@ -48,6 +48,23 @@ Tab:AddButton({
   	end    
 })
 
+local Tab = Window:MakeTab({
+	Name = "Anti Lock",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Scripts"
+})
+
+Tab:AddButton({
+	Name = "Anti aim",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/shezan78/Quick-DH-script/main/AntiLock.lua", true))()
+  	end    
+})
+
 OrionLib:MakeNotification({
 	Name = "Son spawned in!",
 	Content = "365 days in a year and u choose to spend some of that time locking",
